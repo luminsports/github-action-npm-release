@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justincy/github-action-npm-release.git"
+    "url": "git+https://github.com/luminsports/github-action-npm-release.git"
   },
   "author": "Justin York",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/justincy/github-action-npm-release/issues"
+    "url": "https://github.com/luminsports/github-action-npm-release/issues"
   },
-  "homepage": "https://github.com/justincy/github-action-npm-release#readme",
+  "homepage": "https://github.com/luminsports/github-action-npm-release#readme",
   "dependencies": {
     "@actions/core": "1.2.4",
     "@octokit/rest": "18.0.3"

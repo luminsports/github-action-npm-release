@@ -36,7 +36,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Release
-        uses: justincy/github-action-npm-release@v1.2.0
+        uses: luminsports/github-action-npm-release@v1.2.0
         id: release
       - name: Print release output
         if: ${{ steps.release.outputs.released == 'true' }}
@@ -62,7 +62,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Automatic GitHub Release
-        uses: justincy/github-action-npm-release@2.0.1
+        uses: luminsports/github-action-npm-release@2.0.1
         id: release
       - uses: actions/setup-node@v1
         if: steps.release.outputs.released == 'true'
