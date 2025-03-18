@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/luminsports/github-action-npm-release.git"
   },
-  "author": "Justin York",
+  "author": "Ryan Brereton",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luminsports/github-action-npm-release/issues"
